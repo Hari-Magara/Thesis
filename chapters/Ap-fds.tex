@@ -1,0 +1,409 @@
+FDS code representing a typical double stud LSF wall model is shown below.
+
+\dotfill
+
+\begin{lstlisting}
+    
+&HEAD CHID='r0', TITLE='double stud wall'/
+&TIME T_END=14400/
+
+&DUMP RENDER_FILE='r0.ge1', COLUMN_DUMP_LIMIT=.TRUE., DT_RESTART=300.0, DT_SL3D=0.25/
+
+!&MESH ID='cube', IJK=15,19,13, XB=0.0,0.232,-0.016,0.28,0.0,0.2/
+
+&OBST ID='fire', XB=0,0.232,0,0,0,0.2, SURF_ID='ADIABATIC GYPSUM_FIRE'/
+&OBST ID='amb', XB=0,0.232,0.264,0.264,0,0.2, SURF_ID='ADIABATIC GYPSUM_AMB'/
+&OBST ID='lip-fhf', XB=0.1335,0.1335,0.0320,0.0390,0,0.2 , SURF_ID='ADIABATIC STEEL' /
+&OBST ID='flange-fhf', XB=0.0985,0.1335,0.032,0.032,0,0.2 , SURF_ID='ADIABATIC STEEL' /
+&OBST ID='web-fhf', XB=0.0985,0.0985,0.032,0.122,0,0.2 , SURF_ID='ADIABATIC STEEL' /
+&OBST ID='flange-fcf', XB=0.0985,0.1335,0.122,0.122,0,0.2 , SURF_ID='ADIABATIC STEEL' /
+&OBST ID='lip-fcf', XB=0.1335,0.1335,0.1150,0.1220,0,0.2 , SURF_ID='ADIABATIC STEEL' /
+&OBST ID='lip-ahf', XB=0.1335,0.1335,0.1420,0.1490,0,0.2 , SURF_ID='ADIABATIC STEEL' /
+&OBST ID='flange-ahf', XB=0.0985,0.1335,0.1420,0.1420,0,0.2 , SURF_ID='ADIABATIC STEEL' /
+&OBST ID='web-ahf', XB=0.0985,0.0985,0.1420,0.2320,0,0.2 , SURF_ID='ADIABATIC STEEL' /
+&OBST ID='flange-acf', XB=0.0985,0.1335,0.2320,0.2320,0,0.2 , SURF_ID='ADIABATIC STEEL' /
+&OBST ID='lip-acf', XB=0.1335,0.1335,0.2250,0.2320,0,0.2 , SURF_ID='ADIABATIC STEEL' /
+
+!&MISC SOLID_PHASE_ONLY=TRUE/
+&MISC THICKEN_OBSTRUCTIONS=.TRUE./
+&RADI RADIATION=TRUE/
+
+&DEVC XYZ = 0.048,0,0.1, IOR = 2, ID='Pb1',  QUANTITY = 'INSIDE WALL TEMPERATURE', DEPTH=0.001 /
+&DEVC XYZ = 0.048,0,0.1, IOR = 2, ID='Pb1-Pb2',  QUANTITY = 'INSIDE WALL TEMPERATURE', DEPTH=0.016 /
+&DEVC XYZ = 0.048,0,0.1, IOR = 2, ID='Pb2',  QUANTITY = 'INSIDE WALL TEMPERATURE', DEPTH=0.032 /
+&DEVC XYZ = 0.048,0.264,0.1, IOR = -2, ID='Pb3',  QUANTITY = 'INSIDE WALL TEMPERATURE', DEPTH=0.001 /
+&DEVC XYZ = 0.048,0.264,0.1, IOR = -2, ID='Pb3-Pb4',  QUANTITY = 'INSIDE WALL TEMPERATURE', DEPTH=0.016 /
+&DEVC XYZ = 0.048,0.264,0.1, IOR = -2, ID='Pb4',  QUANTITY = 'INSIDE WALL TEMPERATURE', DEPTH=0.032 /
+&DEVC XYZ = 0.1160,0.032,0.1, IOR = 2, ID='FHF',  QUANTITY = 'INSIDE WALL TEMPERATURE', DEPTH=0 /
+&DEVC XYZ = 0.1160,0.0323,0.1, IOR = 2, ID='FHF-Extra',  QUANTITY = 'INSIDE WALL TEMPERATURE', DEPTH=0.00094 /
+&DEVC XYZ = 0.1160,0.032,0.1, IOR = 2, ID='FHF-Extra2',  QUANTITY = 'INSIDE WALL TEMPERATURE', DEPTH=0.03294 /
+&DEVC XYZ = 0.1160,0.122,0.1, IOR = 2, ID='FCF',  QUANTITY = 'INSIDE WALL TEMPERATURE', DEPTH=0 /
+&DEVC XYZ = 0.1160,0.122,0.1, IOR = 2, ID='FCF-Extra',  QUANTITY = 'INSIDE WALL TEMPERATURE', DEPTH=0.00094 /
+&DEVC XYZ = 0.1160,0.142,0.1, IOR = 2, ID='AHF',  QUANTITY = 'INSIDE WALL TEMPERATURE', DEPTH=0 /
+&DEVC XYZ = 0.1160,0.142,0.1, IOR = 2, ID='AHF-Extra',  QUANTITY = 'INSIDE WALL TEMPERATURE', DEPTH=0.00094 /
+&DEVC XYZ = 0.1160,0.232,0.1, IOR = 2, ID='ACF',  QUANTITY = 'INSIDE WALL TEMPERATURE', DEPTH=0 /
+&DEVC XYZ = 0.1160,0.232,0.1, IOR = 2, ID='ACF-Extra',  QUANTITY = 'INSIDE WALL TEMPERATURE', DEPTH=0.00094 /
+&DEVC XYZ = 0.1160,0.232,0.1, IOR = 2, ID='ACF-Extra2',  QUANTITY = 'INSIDE WALL TEMPERATURE', DEPTH=0.03294 /
+
+&SURF ID='ADIABATIC ', ADIABATIC=.TRUE./
+&SURF ID='ADIABATIC GYPSUM', COLOR='PINK', ADIABATIC=.TRUE./
+&SURF ID='ADIABATIC GYPSUM_FIRE', COLOR='PINK', THICKNESS=0.032, MATL_ID='GYPSUM', HEAT_TRANSFER_COEFFICIENT_BACK=25, BACKING='EXPOSED'/
+&SURF ID='ADIABATIC GYPSUM_AMB', COLOR='PINK', THICKNESS=0.032, MATL_ID='GYPSUM', HEAT_TRANSFER_COEFFICIENT_BACK=10, BACKING='VOID'/
+&SURF ID='ADIABATIC STEEL', COLOR='BLUE', THICKNESS=0.00095, MATL_ID='STEEL'/
+&SURF ID='HOT STEEL', COLOR='RED', TMP_FRONT=1153.0, RAMP_T='standard'/
+&RAMP ID='standard', T=0.0, F=0.0173/
+&RAMP ID='standard', T=60.0, F=0.3029/
+&RAMP ID='standard', T=120.0, F=0.3856/
+&RAMP ID='standard', T=180.0, F=0.4357/
+&RAMP ID='standard', T=240.0, F=0.4718/
+&RAMP ID='standard', T=300.0, F=0.5/
+&RAMP ID='standard', T=360.0, F=0.5232/
+&RAMP ID='standard', T=420.0, F=0.5428/
+&RAMP ID='standard', T=480.0, F=0.5599/
+&RAMP ID='standard', T=540.0, F=0.575/
+&RAMP ID='standard', T=600.0, F=0.5885/
+&RAMP ID='standard', T=660.0, F=0.6007/
+&RAMP ID='standard', T=720.0, F=0.6119/
+&RAMP ID='standard', T=780.0, F=0.6222/
+&RAMP ID='standard', T=840.0, F=0.6318/
+&RAMP ID='standard', T=900.0, F=0.6407/
+&RAMP ID='standard', T=960.0, F=0.649/
+&RAMP ID='standard', T=1020.0, F=0.6568/
+&RAMP ID='standard', T=1080.0, F=0.6642/
+&RAMP ID='standard', T=1140.0, F=0.6712/
+&RAMP ID='standard', T=1200.0, F=0.6778/
+&RAMP ID='standard', T=1260.0, F=0.6841/
+&RAMP ID='standard', T=1320.0, F=0.6901/
+&RAMP ID='standard', T=1380.0, F=0.6958/
+&RAMP ID='standard', T=1440.0, F=0.7013/
+&RAMP ID='standard', T=1500.0, F=0.7066/
+&RAMP ID='standard', T=1560.0, F=0.7117/
+&RAMP ID='standard', T=1620.0, F=0.7166/
+&RAMP ID='standard', T=1680.0, F=0.7213/
+&RAMP ID='standard', T=1740.0, F=0.7258/
+&RAMP ID='standard', T=1800.0, F=0.7302/
+&RAMP ID='standard', T=1860.0, F=0.7345/
+&RAMP ID='standard', T=1920.0, F=0.7386/
+&RAMP ID='standard', T=1980.0, F=0.7425/
+&RAMP ID='standard', T=2040.0, F=0.7464/
+&RAMP ID='standard', T=2100.0, F=0.7502/
+&RAMP ID='standard', T=2160.0, F=0.7538/
+&RAMP ID='standard', T=2220.0, F=0.7574/
+&RAMP ID='standard', T=2280.0, F=0.7608/
+&RAMP ID='standard', T=2340.0, F=0.7642/
+&RAMP ID='standard', T=2400.0, F=0.7675/
+&RAMP ID='standard', T=2460.0, F=0.7707/
+&RAMP ID='standard', T=2520.0, F=0.7738/
+&RAMP ID='standard', T=2580.0, F=0.7768/
+&RAMP ID='standard', T=2640.0, F=0.7798/
+&RAMP ID='standard', T=2700.0, F=0.7827/
+&RAMP ID='standard', T=2760.0, F=0.7856/
+&RAMP ID='standard', T=2820.0, F=0.7884/
+&RAMP ID='standard', T=2880.0, F=0.7911/
+&RAMP ID='standard', T=2940.0, F=0.7938/
+&RAMP ID='standard', T=3000.0, F=0.7964/
+&RAMP ID='standard', T=3060.0, F=0.799/
+&RAMP ID='standard', T=3120.0, F=0.8015/
+&RAMP ID='standard', T=3180.0, F=0.8039/
+&RAMP ID='standard', T=3240.0, F=0.8064/
+&RAMP ID='standard', T=3300.0, F=0.8087/
+&RAMP ID='standard', T=3360.0, F=0.8111/
+&RAMP ID='standard', T=3420.0, F=0.8134/
+&RAMP ID='standard', T=3480.0, F=0.8156/
+&RAMP ID='standard', T=3540.0, F=0.8178/
+&RAMP ID='standard', T=3600.0, F=0.82/
+&RAMP ID='standard', T=3660.0, F=0.8222/
+&RAMP ID='standard', T=3720.0, F=0.8243/
+&RAMP ID='standard', T=3780.0, F=0.8264/
+&RAMP ID='standard', T=3840.0, F=0.8284/
+&RAMP ID='standard', T=3900.0, F=0.8304/
+&RAMP ID='standard', T=3960.0, F=0.8324/
+&RAMP ID='standard', T=4020.0, F=0.8343/
+&RAMP ID='standard', T=4080.0, F=0.8363/
+&RAMP ID='standard', T=4140.0, F=0.8382/
+&RAMP ID='standard', T=4200.0, F=0.84/
+&RAMP ID='standard', T=4260.0, F=0.8419/
+&RAMP ID='standard', T=4320.0, F=0.8437/
+&RAMP ID='standard', T=4380.0, F=0.8455/
+&RAMP ID='standard', T=4440.0, F=0.8472/
+&RAMP ID='standard', T=4500.0, F=0.849/
+&RAMP ID='standard', T=4560.0, F=0.8507/
+&RAMP ID='standard', T=4620.0, F=0.8524/
+&RAMP ID='standard', T=4680.0, F=0.8541/
+&RAMP ID='standard', T=4740.0, F=0.8557/
+&RAMP ID='standard', T=4800.0, F=0.8573/
+&RAMP ID='standard', T=4860.0, F=0.859/
+&RAMP ID='standard', T=4920.0, F=0.8606/
+&RAMP ID='standard', T=4980.0, F=0.8621/
+&RAMP ID='standard', T=5040.0, F=0.8637/
+&RAMP ID='standard', T=5100.0, F=0.8652/
+&RAMP ID='standard', T=5160.0, F=0.8667/
+&RAMP ID='standard', T=5220.0, F=0.8682/
+&RAMP ID='standard', T=5280.0, F=0.8697/
+&RAMP ID='standard', T=5340.0, F=0.8712/
+&RAMP ID='standard', T=5400.0, F=0.8726/
+&RAMP ID='standard', T=5460.0, F=0.8741/
+&RAMP ID='standard', T=5520.0, F=0.8755/
+&RAMP ID='standard', T=5580.0, F=0.8769/
+&RAMP ID='standard', T=5640.0, F=0.8783/
+&RAMP ID='standard', T=5700.0, F=0.8797/
+&RAMP ID='standard', T=5760.0, F=0.881/
+&RAMP ID='standard', T=5820.0, F=0.8824/
+&RAMP ID='standard', T=5880.0, F=0.8837/
+&RAMP ID='standard', T=5940.0, F=0.885/
+&RAMP ID='standard', T=6000.0, F=0.8863/
+&RAMP ID='standard', T=6060.0, F=0.8876/
+&RAMP ID='standard', T=6120.0, F=0.8889/
+&RAMP ID='standard', T=6180.0, F=0.8901/
+&RAMP ID='standard', T=6240.0, F=0.8914/
+&RAMP ID='standard', T=6300.0, F=0.8926/
+&RAMP ID='standard', T=6360.0, F=0.8939/
+&RAMP ID='standard', T=6420.0, F=0.8951/
+&RAMP ID='standard', T=6480.0, F=0.8963/
+&RAMP ID='standard', T=6540.0, F=0.8975/
+&RAMP ID='standard', T=6600.0, F=0.8987/
+&RAMP ID='standard', T=6660.0, F=0.8999/
+&RAMP ID='standard', T=6720.0, F=0.901/
+&RAMP ID='standard', T=6780.0, F=0.9022/
+&RAMP ID='standard', T=6840.0, F=0.9033/
+&RAMP ID='standard', T=6900.0, F=0.9045/
+&RAMP ID='standard', T=6960.0, F=0.9056/
+&RAMP ID='standard', T=7020.0, F=0.9067/
+&RAMP ID='standard', T=7080.0, F=0.9078/
+&RAMP ID='standard', T=7140.0, F=0.9089/
+&RAMP ID='standard', T=7200.0, F=0.91/
+&RAMP ID='standard', T=7260.0, F=0.9111/
+&RAMP ID='standard', T=7320.0, F=0.9121/
+&RAMP ID='standard', T=7380.0, F=0.9132/
+&RAMP ID='standard', T=7440.0, F=0.9142/
+&RAMP ID='standard', T=7500.0, F=0.9153/
+&RAMP ID='standard', T=7560.0, F=0.9163/
+&RAMP ID='standard', T=7620.0, F=0.9173/
+&RAMP ID='standard', T=7680.0, F=0.9184/
+&RAMP ID='standard', T=7740.0, F=0.9194/
+&RAMP ID='standard', T=7800.0, F=0.9204/
+&RAMP ID='standard', T=7860.0, F=0.9214/
+&RAMP ID='standard', T=7920.0, F=0.9224/
+&RAMP ID='standard', T=7980.0, F=0.9233/
+&RAMP ID='standard', T=8040.0, F=0.9243/
+&RAMP ID='standard', T=8100.0, F=0.9253/
+&RAMP ID='standard', T=8160.0, F=0.9262/
+&RAMP ID='standard', T=8220.0, F=0.9272/
+&RAMP ID='standard', T=8280.0, F=0.9281/
+&RAMP ID='standard', T=8340.0, F=0.9291/
+&RAMP ID='standard', T=8400.0, F=0.93/
+&RAMP ID='standard', T=8460.0, F=0.9309/
+&RAMP ID='standard', T=8520.0, F=0.9318/
+&RAMP ID='standard', T=8580.0, F=0.9327/
+&RAMP ID='standard', T=8640.0, F=0.9337/
+&RAMP ID='standard', T=8700.0, F=0.9346/
+&RAMP ID='standard', T=8760.0, F=0.9354/
+&RAMP ID='standard', T=8820.0, F=0.9363/
+&RAMP ID='standard', T=8880.0, F=0.9372/
+&RAMP ID='standard', T=8940.0, F=0.9381/
+&RAMP ID='standard', T=9000.0, F=0.939/
+&RAMP ID='standard', T=9060.0, F=0.9398/
+&RAMP ID='standard', T=9120.0, F=0.9407/
+&RAMP ID='standard', T=9180.0, F=0.9415/
+&RAMP ID='standard', T=9240.0, F=0.9424/
+&RAMP ID='standard', T=9300.0, F=0.9432/
+&RAMP ID='standard', T=9360.0, F=0.944/
+&RAMP ID='standard', T=9420.0, F=0.9449/
+&RAMP ID='standard', T=9480.0, F=0.9457/
+&RAMP ID='standard', T=9540.0, F=0.9465/
+&RAMP ID='standard', T=9600.0, F=0.9473/
+&RAMP ID='standard', T=9660.0, F=0.9481/
+&RAMP ID='standard', T=9720.0, F=0.9489/
+&RAMP ID='standard', T=9780.0, F=0.9497/
+&RAMP ID='standard', T=9840.0, F=0.9505/
+&RAMP ID='standard', T=9900.0, F=0.9513/
+&RAMP ID='standard', T=9960.0, F=0.9521/
+&RAMP ID='standard', T=1.002E4, F=0.9529/
+&RAMP ID='standard', T=1.008E4, F=0.9537/
+&RAMP ID='standard', T=1.014E4, F=0.9544/
+&RAMP ID='standard', T=1.02E4, F=0.9552/
+&RAMP ID='standard', T=1.026E4, F=0.956/
+&RAMP ID='standard', T=1.032E4, F=0.9567/
+&RAMP ID='standard', T=1.038E4, F=0.9575/
+&RAMP ID='standard', T=1.044E4, F=0.9582/
+&RAMP ID='standard', T=1.05E4, F=0.959/
+&RAMP ID='standard', T=1.056E4, F=0.9597/
+&RAMP ID='standard', T=1.062E4, F=0.9604/
+&RAMP ID='standard', T=1.068E4, F=0.9612/
+&RAMP ID='standard', T=1.074E4, F=0.9619/
+&RAMP ID='standard', T=1.08E4, F=0.9626/
+&RAMP ID='standard', T=1.086E4, F=0.9634/
+&RAMP ID='standard', T=1.092E4, F=0.9641/
+&RAMP ID='standard', T=1.098E4, F=0.9648/
+&RAMP ID='standard', T=1.104E4, F=0.9655/
+&RAMP ID='standard', T=1.11E4, F=0.9662/
+&RAMP ID='standard', T=1.116E4, F=0.9669/
+&RAMP ID='standard', T=1.122E4, F=0.9676/
+&RAMP ID='standard', T=1.128E4, F=0.9683/
+&RAMP ID='standard', T=1.134E4, F=0.969/
+&RAMP ID='standard', T=1.14E4, F=0.9697/
+&RAMP ID='standard', T=1.146E4, F=0.9703/
+&RAMP ID='standard', T=1.152E4, F=0.971/
+&RAMP ID='standard', T=1.158E4, F=0.9717/
+&RAMP ID='standard', T=1.164E4, F=0.9724/
+&RAMP ID='standard', T=1.17E4, F=0.973/
+&RAMP ID='standard', T=1.176E4, F=0.9737/
+&RAMP ID='standard', T=1.182E4, F=0.9744/
+&RAMP ID='standard', T=1.188E4, F=0.975/
+&RAMP ID='standard', T=1.194E4, F=0.9757/
+&RAMP ID='standard', T=1.2E4, F=0.9763/
+&RAMP ID='standard', T=1.206E4, F=0.977/
+&RAMP ID='standard', T=1.212E4, F=0.9776/
+&RAMP ID='standard', T=1.218E4, F=0.9783/
+&RAMP ID='standard', T=1.224E4, F=0.9789/
+&RAMP ID='standard', T=1.23E4, F=0.9795/
+&RAMP ID='standard', T=1.236E4, F=0.9802/
+&RAMP ID='standard', T=1.242E4, F=0.9808/
+&RAMP ID='standard', T=1.248E4, F=0.9814/
+&RAMP ID='standard', T=1.254E4, F=0.982/
+&RAMP ID='standard', T=1.26E4, F=0.9827/
+&RAMP ID='standard', T=1.266E4, F=0.9833/
+&RAMP ID='standard', T=1.272E4, F=0.9839/
+&RAMP ID='standard', T=1.278E4, F=0.9845/
+&RAMP ID='standard', T=1.284E4, F=0.9851/
+&RAMP ID='standard', T=1.29E4, F=0.9857/
+&RAMP ID='standard', T=1.296E4, F=0.9863/
+&RAMP ID='standard', T=1.302E4, F=0.9869/
+&RAMP ID='standard', T=1.308E4, F=0.9875/
+&RAMP ID='standard', T=1.314E4, F=0.9881/
+&RAMP ID='standard', T=1.32E4, F=0.9887/
+&RAMP ID='standard', T=1.326E4, F=0.9893/
+&RAMP ID='standard', T=1.332E4, F=0.9899/
+&RAMP ID='standard', T=1.338E4, F=0.9905/
+&RAMP ID='standard', T=1.344E4, F=0.991/
+&RAMP ID='standard', T=1.35E4, F=0.9916/
+&RAMP ID='standard', T=1.356E4, F=0.9922/
+&RAMP ID='standard', T=1.362E4, F=0.9928/
+&RAMP ID='standard', T=1.368E4, F=0.9933/
+&RAMP ID='standard', T=1.374E4, F=0.9939/
+&RAMP ID='standard', T=1.38E4, F=0.9945/
+&RAMP ID='standard', T=1.386E4, F=0.995/
+&RAMP ID='standard', T=1.392E4, F=0.9956/
+&RAMP ID='standard', T=1.398E4, F=0.9962/
+&RAMP ID='standard', T=1.404E4, F=0.9967/
+&RAMP ID='standard', T=1.41E4, F=0.9973/
+&RAMP ID='standard', T=1.416E4, F=0.9978/
+&RAMP ID='standard', T=1.422E4, F=0.9984/
+&RAMP ID='standard', T=1.428E4, F=0.9989/
+&RAMP ID='standard', T=1.434E4, F=0.9995/
+&RAMP ID='standard', T=1.44E4, F=1.0/
+
+
+&MATL ID = 'GYPSUM'
+  DENSITY = 768.5
+  EMISSIVITY=0.9
+  SPECIFIC_HEAT_RAMP = 'c_ramp'
+  CONDUCTIVITY_RAMP = 'k_ramp' /
+&RAMP ID='c_ramp', T = 20 , F = 1.22 /
+&RAMP ID='c_ramp', T = 100 , F = 1.54 /
+&RAMP ID='c_ramp', T = 115 , F = 2.4 /
+&RAMP ID='c_ramp', T = 125 , F = 5.294 /
+&RAMP ID='c_ramp', T = 148 , F = 10.4 /
+&RAMP ID='c_ramp', T = 154 , F = 9.232 /
+&RAMP ID='c_ramp', T = 158 , F = 8.6 /
+&RAMP ID='c_ramp', T = 173 , F = 9.75 /
+&RAMP ID='c_ramp', T = 180 , F = 7.885 /
+&RAMP ID='c_ramp', T = 195 , F = 2 /
+&RAMP ID='c_ramp', T = 225 , F = 1.22 /
+&RAMP ID='c_ramp', T = 400 , F = 1.22 /
+&RAMP ID='c_ramp', T = 675 , F = 1.22 /
+&RAMP ID='c_ramp', T = 770 , F = 1.22 /
+&RAMP ID='c_ramp', T = 875 , F = 1.22 /
+&RAMP ID='c_ramp', T = 940 , F = 1.22 /
+&RAMP ID='c_ramp', T = 1000, F = 1.22 /
+&RAMP ID='c_ramp', T = 1180, F = 1.22 /
+&RAMP ID='k_ramp', T = 20 , F = 0.24 /
+&RAMP ID='k_ramp', T = 100 , F = 0.24 /
+&RAMP ID='k_ramp', T = 115 , F = 0.2 /
+&RAMP ID='k_ramp', T = 125 , F = 0.17 /
+&RAMP ID='k_ramp', T = 148 , F = 0.11 /
+&RAMP ID='k_ramp', T = 154 , F = 0.11 /
+&RAMP ID='k_ramp', T = 158 , F = 0.11 /
+&RAMP ID='k_ramp', T = 173 , F = 0.11 /
+&RAMP ID='k_ramp', T = 180 , F = 0.11 /
+&RAMP ID='k_ramp', T = 195 , F = 0.11 /
+&RAMP ID='k_ramp', T = 225 , F = 0.11 /
+&RAMP ID='k_ramp', T = 400 , F = 0.15 /
+&RAMP ID='k_ramp', T = 675 , F = 0.1885 /
+&RAMP ID='k_ramp', T = 770 , F = 0.2018 /
+&RAMP ID='k_ramp', T = 875 , F = 0.2165 /
+&RAMP ID='k_ramp', T = 940 , F = 0.41 /
+&RAMP ID='k_ramp', T = 1000, F = 0.7 /
+&RAMP ID='k_ramp', T = 1180, F = 1.4 /
+
+&MATL ID = 'STEEL'
+  DENSITY = 7850
+  EMISSIVITY=0.7
+  SPECIFIC_HEAT_RAMP = 'a_ramp'
+  CONDUCTIVITY_RAMP = 'b_ramp' /
+&RAMP ID='a_ramp', T = 20 , F = 0.44 /
+&RAMP ID='a_ramp', T = 200 , F = 0.53 /
+&RAMP ID='a_ramp', T = 300 , F = 0.565 /
+&RAMP ID='a_ramp', T = 599 , F = 0.759 /
+&RAMP ID='a_ramp', T = 600 , F = 0.76 /
+&RAMP ID='a_ramp', T = 625 , F = 0.781 /
+&RAMP ID='a_ramp', T = 650 , F = 0.814 /
+&RAMP ID='a_ramp', T = 675 , F = 0.872 /
+&RAMP ID='a_ramp', T = 700 , F = 1.008 /
+&RAMP ID='a_ramp', T = 725 , F = 1.666 /
+&RAMP ID='a_ramp', T = 727 , F = 1.848 /
+&RAMP ID='a_ramp', T = 729 , F = 2.111 /
+&RAMP ID='a_ramp', T = 731 , F = 2.523 /
+&RAMP ID='a_ramp', T = 734 , F = 3.917 /
+&RAMP ID='a_ramp', T = 735 , F = 5 /
+&RAMP ID='a_ramp', T = 750 , F = 1.483 /
+&RAMP ID='a_ramp', T = 775 , F = 0.95 /
+&RAMP ID='a_ramp', T = 799 , F = 0.809 /
+&RAMP ID='a_ramp', T = 800 , F = 0.803 /
+&RAMP ID='a_ramp', T = 825 , F = 0.735 /
+&RAMP ID='a_ramp', T = 850 , F = 0.695 /
+&RAMP ID='a_ramp', T = 875 , F = 0.669 /
+&RAMP ID='a_ramp', T = 899 , F = 0.651 /
+&RAMP ID='a_ramp', T = 1200, F = 0.65 /
+&RAMP ID='b_ramp', T = 20 , F = 54 /
+&RAMP ID='b_ramp', T = 200 , F = 47.85 /
+&RAMP ID='b_ramp', T = 300 , F = 44.43 /
+&RAMP ID='b_ramp', T = 599 , F = 34.22 /
+&RAMP ID='b_ramp', T = 600 , F = 34.19 /
+&RAMP ID='b_ramp', T = 625 , F = 33.34 /
+&RAMP ID='b_ramp', T = 650 , F = 32.48 /
+&RAMP ID='b_ramp', T = 675 , F = 31.63 /
+&RAMP ID='b_ramp', T = 700 , F = 30.78 /
+&RAMP ID='b_ramp', T = 725 , F = 29.92 /
+&RAMP ID='b_ramp', T = 727 , F = 29.85 /
+&RAMP ID='b_ramp', T = 729 , F = 29.79 /
+&RAMP ID='b_ramp', T = 731 , F = 29.72 /
+&RAMP ID='b_ramp', T = 734 , F = 29.61 /
+&RAMP ID='b_ramp', T = 735 , F = 29.58 /
+&RAMP ID='b_ramp', T = 750 , F = 29.07 /
+&RAMP ID='b_ramp', T = 775 , F = 28.21 /
+&RAMP ID='b_ramp', T = 799 , F = 27.4 /
+&RAMP ID='b_ramp', T = 800 , F = 27.3 /
+&RAMP ID='b_ramp', T = 825 , F = 27.3 /
+&RAMP ID='b_ramp', T = 850 , F = 27.3 /
+&RAMP ID='b_ramp', T = 875 , F = 27.3 /
+&RAMP ID='b_ramp', T = 899 , F = 27.3 /
+&RAMP ID='b_ramp', T = 1200, F = 27.3 /
+
+&VENT ID='Hburner' SURF_ID='HOT STEEL' XB=0.0,0.232,-0.016,-0.016,0.0,0.2 /
+&VENT MB='YMAX', SURF_ID='OPEN' /
+&VENT MB='XMAX', SURF_ID='ADIABATIC' /
+&VENT MB='XMIN', SURF_ID='ADIABATIC' /
+&VENT MB='ZMAX', SURF_ID='ADIABATIC' /
+&VENT MB='ZMIN', SURF_ID='ADIABATIC' /
+
+&SLCF QUANTITY='TEMPERATURE', VECTOR=.TRUE., CELL_CENTERED=.TRUE., PBX=0.1/
+&SLCF QUANTITY='TEMPERATURE', VECTOR=.TRUE., CELL_CENTERED=.TRUE., PBY=0.1/
+&SLCF QUANTITY='TEMPERATURE', VECTOR=.TRUE., CELL_CENTERED=.TRUE., PBZ=0.1/
+
+&BNDF QUANTITY='WALL TEMPERATURE'/
+&BNDF QUANTITY='NET HEAT FLUX'/
+
+&TAIL /
+
+\end{lstlisting}

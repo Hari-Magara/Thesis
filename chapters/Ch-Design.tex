@@ -1,0 +1,59 @@
+Cold-formed steel members are generally designed based on the Effective Width Method (EWM) or the Direct Strength Method (DSM). The DSM is widely used in recent times over EWM due to less cumbersome calculations involved \citet{Yu2007,Schafer2008b,Shahbazian2011,Shahbazian2012}. 
+Suitable DSM equations were successfully developed and used by Kesawan and Mahendran \citet{Kesawan2016} to predict the reduced load bearing capacities of Hollow Flange Channel Section (HFC) studs when exposed to non-uniform temperature distributions during standard fire tests. Their applicability to other cold-formed steel sections such as Lipped Channel and Web Stiffened channel sections were then verified by Rusthi et al. \citet{Rusthi2018}. The DSM equations have been recently included in AS/NZS 4600 \citet{ASNZ4600}. These two research studies \citet{Kesawan2016,Rusthi2018} have enabled the use of DSM based design equations to determine the reduced load bearing capacity of cold-formed steel studs as a function of time, i.e with varying hot and cold-flange temperatures during a standard fire test, and develop load ratio versus failure time tables/curves for single stud LSF walls.
+%\begin{figure}[htbp]
+%	\begin{center}
+%		\includegraphics[width=10cm,height=8cm]{Dsm} 
+%		\caption{Load ratio curve predictions using DSM for Double Stud LSF Walls in Tests-T1,T2 and T3}
+%		\label{fig:LR curves}
+%	\end{center}
+%\end{figure}
+
+\begin{table}[htbp]
+	\centering
+	\caption{DSM predictions for Test-T1}
+	\begin{tabular}{cccccc}
+		\toprule
+		\multicolumn{1}{p{2.785em}}{Time (min)} & \multicolumn{1}{p{3.215em}}{Critical HF \degree C} & \multicolumn{1}{p{3.215em}}{Critical CF \degree C} & \multicolumn{1}{p{6em}}{Compression Capacity (kN)} & \multicolumn{1}{p{2.715em}}{Load Ratio} &
+		\multirow{2}{7em}{\% Difference in Failure Time} \\
+		\midrule
+		0    & 20   & 20   & 25.75 & 1.00 & - \\
+		30   & 85   & 63   & 20.22 & 0.79 & - \\
+		60   & 148  & 87   & 17.51 & 0.68 & - \\
+		85   & 318  & 233  & 14.02 & 0.54 & -\\
+		110  & 360  & 270  & 13.09 & 0.51 & -\\
+		150  & 416  & 351  & 12.21 & 0.47 & -\\
+		170  & 453  & 393  & 11.16 & 0.43 & -\\
+		\textbf{174}  & \textbf{476}  & \textbf{405}  & \textbf{10.34} &\textbf{ 0.40} & \textbf{-1.13\%}\\
+		180  & 511  & 425  & 9.21 & 0.36 & -\\
+		\bottomrule
+	\end{tabular}%
+	\label{tab:DSM-T1}%
+\end{table}%
+
+\begin{table}[htbp]
+	\centering
+	\caption{DSM predictions for Test-T2 and T3}
+	\begin{tabular}{cccccc}
+		\toprule
+		\multicolumn{1}{p{2.57em}}{Time (min)} & \multicolumn{1}{p{3.215em}}{Critical HF \degree C} & \multicolumn{1}{p{3.215em}}{Critical CF \degree C} & \multicolumn{1}{p{5.93em}}{Compression Capacity (kN)} & \multicolumn{1}{p{2.43em}}{Load Ratio} &
+		\multirow{2}{7em}{\% Difference in Failure Time} \\
+		\midrule
+		0    & 20   & 20   & 17.32 & 1.00 & - \\
+		30   & 89   & 74   & 13.78 & 0.80 & - \\
+		60   & 140  & 101  & 12.58 & 0.73 & - \\
+		\textbf{74}   & \textbf{263}  & \textbf{183}  & \textbf{10.40} & \textbf{0.60} & \textbf{-8.64\%}\\
+		75   & 274  & 195  & 10.30 & 0.59 & - \\
+		90   & 429  & 300  & 7.61 & 0.44 & - \\
+		110  & 448  & 341  & 7.41 & 0.43 & - \\
+		\textbf{114}  & \textbf{467}  & \textbf{363}  & \textbf{7.08} & \textbf{0.40} & \textbf{-13.63\%} \\
+		120  & 523  & 436  & 6.09 & 0.35 & - \\
+		130  & 581  & 506  & 5.07 & 0.29 & - \\
+		\bottomrule
+	\end{tabular}%
+	\label{tab:DSM-T2-T3}%
+\end{table}%
+
+To investigate the applicability of the DSM based fire design equations for double stud walls, stud capacities were calculated based on the current DSM equations in AS/NZS 4600 \citet{ASNZ4600} and the failure times of the fire test panels were predicted. As the double stud wall test panels have two rows of studs, only the critical fire side stud temperatures were considered in the calculations. During the full-scale fire tests the failure of the wall panel was initiated by the fire side studs. After the failure initiation on the fire side, the applied load transfers to the ambient side row of studs resulting in the failure of the wall panel. This was evident from the post-fire test observation where the dominant failure mode was observed on the fire side row of studs. The fire side studs are restrained by plasterboards at 300 mm intervals on the hot flange and with noggings at 1000 mm on the cold flange. As the predominant failure mode of studs in the ambient temperature and fire tests was local buckling, similar assumptions were made in the DSM calculations. The DSM design calculations also included the possibility of minor axis buckling with lateral restraints at 1000 mm. The critical buckling loads were calculated using ABAQUS (a Finite Element Analysis (FEA) software) using linear buckling analysis at ambient temperature for use in DSM equations. The ambient capacity of the stud was computed using DSM equations. Then the elevated temperatures of the stud at selected time intervals were used to arrive at the corresponding axial compression capacities at selected times during a standard fire. The non-dimensional Load Ratios (LR) were obtained based on the ratio between ambient and elevated temperature axial compression capacities and are summarised in Tables \ref{tab:DSM-T1} and \ref{tab:DSM-T2-T3}. 
+
+For Test-T1 the DSM predictions beyond 176 min were based on the stud temperatures obtained by extrapolation using a polynomial trend-line of fourth order since the temperature data was unavailable after 176 min. Using the results in these tables, the failure times of Tests-T1, T2 and T3 were predicted as 175, 114 and 74 min based on their respective load ratios of 0.4, 0.4 and 0.6, respectively. These predictions agree reasonably well with the actual failure times given in Table and confirm that the current DSM equations are suitable to predict the failure times of double stud walls with reasonable accuracy by considering the fire side studs only.
+

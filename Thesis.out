@@ -1,0 +1,138 @@
+\BOOKMARK [0][-]{chapter*.1}{Keywords}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{Abstract}{}% 2
+\BOOKMARK [0][-]{chapter*.3}{Publications}{}% 3
+\BOOKMARK [0][-]{chapter*.7}{List of Tables}{}% 4
+\BOOKMARK [0][-]{chapter*.8}{List of Figures}{}% 5
+\BOOKMARK [0][-]{chapter*.9}{Acknowledgement}{}% 6
+\BOOKMARK [0][-]{chapter*.10}{Abbreviations}{}% 7
+\BOOKMARK [0][-]{chapter*.11}{Statement of Original Authorship}{}% 8
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 9
+\BOOKMARK [1][-]{section.1.1}{General}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.2}{LSF Wall System}{chapter.1}% 11
+\BOOKMARK [2][-]{subsection.1.2.1}{LSF Wall Components}{section.1.2}% 12
+\BOOKMARK [2][-]{subsection.1.2.2}{Cold-formed Steel Sections}{section.1.2}% 13
+\BOOKMARK [2][-]{subsection.1.2.3}{Buckling Behaviour of Cold-Formed Steel Members}{section.1.2}% 14
+\BOOKMARK [2][-]{subsection.1.2.4}{Design Guidelines}{section.1.2}% 15
+\BOOKMARK [2][-]{subsection.1.2.5}{Fire and Structural Performance of LSF walls}{section.1.2}% 16
+\BOOKMARK [1][-]{section.1.3}{Complex LSF Wall Systems}{chapter.1}% 17
+\BOOKMARK [1][-]{section.1.4}{Research Problem}{chapter.1}% 18
+\BOOKMARK [1][-]{section.1.5}{Research Aim}{chapter.1}% 19
+\BOOKMARK [1][-]{section.1.6}{Outline of Thesis}{chapter.1}% 20
+\BOOKMARK [0][-]{chapter.2}{Literature Review}{}% 21
+\BOOKMARK [1][-]{section.2.1}{Background}{chapter.2}% 22
+\BOOKMARK [1][-]{section.2.2}{Experimental and Numerical Investigations of LSF Walls}{chapter.2}% 23
+\BOOKMARK [1][-]{section.2.3}{Thermal and Mechanical Properties of Cold-Formed Steels}{chapter.2}% 24
+\BOOKMARK [1][-]{section.2.4}{Thermal Properties of Plasterboard}{chapter.2}% 25
+\BOOKMARK [1][-]{section.2.5}{Numerical Simulation}{chapter.2}% 26
+\BOOKMARK [1][-]{section.2.6}{Computational Fluid Dynamics \(CFD\)}{chapter.2}% 27
+\BOOKMARK [1][-]{section.2.7}{Literature Review Findings}{chapter.2}% 28
+\BOOKMARK [0][-]{chapter.3}{Experimental Investigations of LSF Walls under Ambient Conditions}{}% 29
+\BOOKMARK [1][-]{section.3.1}{General}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.2}{Test Wall Panels}{chapter.3}% 31
+\BOOKMARK [1][-]{section.3.3}{Test Set-up}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.4}{Test-AT1}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.5}{Test-AT2}{chapter.3}% 34
+\BOOKMARK [1][-]{section.3.6}{Test-AT3}{chapter.3}% 35
+\BOOKMARK [1][-]{section.3.7}{Test-AT4}{chapter.3}% 36
+\BOOKMARK [1][-]{section.3.8}{Test-AT5}{chapter.3}% 37
+\BOOKMARK [1][-]{section.3.9}{Summary of Ambient Temperature Capacity Test Results}{chapter.3}% 38
+\BOOKMARK [1][-]{section.3.10}{Comparison of Ambient Temperature Capacity Test Results}{chapter.3}% 39
+\BOOKMARK [1][-]{section.3.11}{Tensile Coupon Tests}{chapter.3}% 40
+\BOOKMARK [1][-]{section.3.12}{Design Capacity Predictions Based on Direct Strength Method \(DSM\)}{chapter.3}% 41
+\BOOKMARK [1][-]{section.3.13}{Summary of Findings}{chapter.3}% 42
+\BOOKMARK [0][-]{chapter.4}{Experimental Investigations of Complex LSF Walls under Fire Conditions}{}% 43
+\BOOKMARK [1][-]{section.4.1}{General}{chapter.4}% 44
+\BOOKMARK [1][-]{section.4.2}{Heat Transfer in LSF Walls}{chapter.4}% 45
+\BOOKMARK [1][-]{section.4.3}{Small-Scale Fire Test of Double Stud LSF Walls}{chapter.4}% 46
+\BOOKMARK [2][-]{subsection.4.3.1}{Small-Scale Fire Test Details}{section.4.3}% 47
+\BOOKMARK [2][-]{subsection.4.3.2}{Small-Scale Fire Test - Results and Discussion}{section.4.3}% 48
+\BOOKMARK [1][-]{section.4.4}{Full-scale Fire Tests of Double, Staggered and Shaftliner LSF Walls}{chapter.4}% 49
+\BOOKMARK [2][-]{subsection.4.4.1}{Fire Test Panel Details}{section.4.4}% 50
+\BOOKMARK [2][-]{subsection.4.4.2}{Temperature Sensors and Displacement Transducers}{section.4.4}% 51
+\BOOKMARK [2][-]{subsection.4.4.3}{Fire Test Set-up and Procedure}{section.4.4}% 52
+\BOOKMARK [1][-]{section.4.5}{Fire Test-T1}{chapter.4}% 53
+\BOOKMARK [2][-]{subsection.4.5.1}{Test-T1 Failure Time and Mode, and Observations}{section.4.5}% 54
+\BOOKMARK [2][-]{subsection.4.5.2}{Test-T1 Results and Discussion}{section.4.5}% 55
+\BOOKMARK [1][-]{section.4.6}{Fire Test-T2}{chapter.4}% 56
+\BOOKMARK [2][-]{subsection.4.6.1}{Test-T2 Failure Time and Mode, and Observations}{section.4.6}% 57
+\BOOKMARK [2][-]{subsection.4.6.2}{Test-T2 Results and Discussion}{section.4.6}% 58
+\BOOKMARK [1][-]{section.4.7}{Fire Test-T3}{chapter.4}% 59
+\BOOKMARK [2][-]{subsection.4.7.1}{Test-T3 Failure Time and Mode, and Observations}{section.4.7}% 60
+\BOOKMARK [2][-]{subsection.4.7.2}{Test-T3 Results and Discussion}{section.4.7}% 61
+\BOOKMARK [1][-]{section.4.8}{Fire Test-T4}{chapter.4}% 62
+\BOOKMARK [2][-]{subsection.4.8.1}{Test-T4 Failure Time and Mode, and Observations}{section.4.8}% 63
+\BOOKMARK [2][-]{subsection.4.8.2}{Test-T4 Results and Discussion}{section.4.8}% 64
+\BOOKMARK [1][-]{section.4.9}{Fire Test-T5}{chapter.4}% 65
+\BOOKMARK [2][-]{subsection.4.9.1}{Test-T5 Failure Time and Mode, and Observations}{section.4.9}% 66
+\BOOKMARK [2][-]{subsection.4.9.2}{Test-T5 Results and Discussion}{section.4.9}% 67
+\BOOKMARK [1][-]{section.4.10}{Fire Test-T6}{chapter.4}% 68
+\BOOKMARK [2][-]{subsection.4.10.1}{Test-T6 Failure Time and Mode, and Observations}{section.4.10}% 69
+\BOOKMARK [2][-]{subsection.4.10.2}{Test-T6 Results and Discussion}{section.4.10}% 70
+\BOOKMARK [1][-]{section.4.11}{Fire Test-T7}{chapter.4}% 71
+\BOOKMARK [2][-]{subsection.4.11.1}{Test-T7 Failure Time and Mode, and Observations}{section.4.11}% 72
+\BOOKMARK [2][-]{subsection.4.11.2}{Test-T7 Results and Discussion}{section.4.11}% 73
+\BOOKMARK [1][-]{section.4.12}{Fire Test-T8}{chapter.4}% 74
+\BOOKMARK [2][-]{subsection.4.12.1}{Test-T8 Failure Time and Mode, and Observations}{section.4.12}% 75
+\BOOKMARK [2][-]{subsection.4.12.2}{Test-T8 Results and Discussion}{section.4.12}% 76
+\BOOKMARK [1][-]{section.4.13}{Fire Test-T9}{chapter.4}% 77
+\BOOKMARK [2][-]{subsection.4.13.1}{Test-T9 Failure Time and Mode, and Observations}{section.4.13}% 78
+\BOOKMARK [2][-]{subsection.4.13.2}{Test-T9 Results and Discussion}{section.4.13}% 79
+\BOOKMARK [1][-]{section.4.14}{Fire Test-T10}{chapter.4}% 80
+\BOOKMARK [2][-]{subsection.4.14.1}{Test-T10 Failure Time and Mode, and Observations}{section.4.14}% 81
+\BOOKMARK [2][-]{subsection.4.14.2}{Test-T10 Results and Discussion}{section.4.14}% 82
+\BOOKMARK [1][-]{section.4.15}{Summary of Full-Scale Fire Tests}{chapter.4}% 83
+\BOOKMARK [1][-]{section.4.16}{Comparison with Single Stud Wall Test Results}{chapter.4}% 84
+\BOOKMARK [2][-]{subsection.4.16.1}{Comparison of Non-Cavity Insulated Fire Test Results - Tests-T1, T2, T4, SS-T1 and SS-T2}{section.4.16}% 85
+\BOOKMARK [2][-]{subsection.4.16.2}{Comparison of Cavity Insulated Fire Test Results - Tests-T5, T7, T10 and SS-T3}{section.4.16}% 86
+\BOOKMARK [2][-]{subsection.4.16.3}{Comparison of Non-Cavity Insulated Shaftliner and Staggered Stud Fire Test Results - Tests T8, T9 and SS-T4}{section.4.16}% 87
+\BOOKMARK [2][-]{subsection.4.16.4}{Comparison of Axial Displacement and Lateral Deflection Versus Time Curves}{section.4.16}% 88
+\BOOKMARK [1][-]{section.4.17}{Conclusions}{chapter.4}% 89
+\BOOKMARK [0][-]{chapter.5}{Thermal FE Modelling of Complex LSF Walls}{}% 90
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 91
+\BOOKMARK [1][-]{section.5.2}{Thermal modelling in SAFIR}{chapter.5}% 92
+\BOOKMARK [1][-]{section.5.3}{Thermal modelling in ABAQUS}{chapter.5}% 93
+\BOOKMARK [1][-]{section.5.4}{Thermal modelling in FDS}{chapter.5}% 94
+\BOOKMARK [2][-]{subsection.5.4.1}{Thermal model description in FDS}{section.5.4}% 95
+\BOOKMARK [2][-]{subsection.5.4.2}{Thermal model validation - Non-cavity insulated Tests-T1, T2, T3, T4, T8 and T9}{section.5.4}% 96
+\BOOKMARK [2][-]{subsection.5.4.3}{Thermal model validation - Cavity insulated Tests-T5, T6, T7 and T10}{section.5.4}% 97
+\BOOKMARK [2][-]{subsection.5.4.4}{Thermal model validation - Non-cavity insulated Tests-T1, T2, T3, T4, T8 and T9 with plasterboard open-up}{section.5.4}% 98
+\BOOKMARK [2][-]{subsection.5.4.5}{Influence of Plasterboard Open-Up}{section.5.4}% 99
+\BOOKMARK [1][-]{section.5.5}{Conclusions}{chapter.5}% 100
+\BOOKMARK [0][-]{chapter.6}{Structural FE Modelling of Complex LSF Walls}{}% 101
+\BOOKMARK [1][-]{section.6.1}{Numerical Analysis of Complex LSF Walls-Ambient Conditions}{chapter.6}% 102
+\BOOKMARK [1][-]{section.6.2}{ABAQUS Modelling Set-up}{chapter.6}% 103
+\BOOKMARK [1][-]{section.6.3}{Structural FE Model Prediction - Ambient Temperature Capacity Tests}{chapter.6}% 104
+\BOOKMARK [1][-]{section.6.4}{Summary of Ambient Temperature Capacity Predictions}{chapter.6}% 105
+\BOOKMARK [1][-]{section.6.5}{Coupled Temperature Displacement Structural Analysis}{chapter.6}% 106
+\BOOKMARK [1][-]{section.6.6}{Summary and Conclusions}{chapter.6}% 107
+\BOOKMARK [0][-]{chapter.7}{Thermal and Structural FE Modelling Parametric Study}{}% 108
+\BOOKMARK [1][-]{section.7.1}{Introduction}{chapter.7}% 109
+\BOOKMARK [1][-]{section.7.2}{Parameters considered}{chapter.7}% 110
+\BOOKMARK [1][-]{section.7.3}{Thermal Parametric Models}{chapter.7}% 111
+\BOOKMARK [2][-]{subsection.7.3.1}{Double stud wall with 70 mm studs}{section.7.3}% 112
+\BOOKMARK [2][-]{subsection.7.3.2}{Double stud walls with 90 mm studs}{section.7.3}% 113
+\BOOKMARK [2][-]{subsection.7.3.3}{Shaftliner stud walls with 70 mm studs}{section.7.3}% 114
+\BOOKMARK [2][-]{subsection.7.3.4}{Shaftliner stud walls with 90 mm studs}{section.7.3}% 115
+\BOOKMARK [2][-]{subsection.7.3.5}{Staggered stud walls with 70 mm studs}{section.7.3}% 116
+\BOOKMARK [2][-]{subsection.7.3.6}{Staggered stud walls with 90 mm studs}{section.7.3}% 117
+\BOOKMARK [1][-]{section.7.4}{Ambient Temperature Structural Models}{chapter.7}% 118
+\BOOKMARK [1][-]{section.7.5}{Elevated Temperature Structural Models}{chapter.7}% 119
+\BOOKMARK [2][-]{subsection.7.5.1}{FRL Predictions for Wall Configurations from Experimental Study}{section.7.5}% 120
+\BOOKMARK [2][-]{subsection.7.5.2}{FRL Predictions for Wall Configurations from Parametric Study}{section.7.5}% 121
+\BOOKMARK [3][-]{subsubsection.7.5.2.1}{FRL Predictions of Double Stud LSF Wall Configurations}{subsection.7.5.2}% 122
+\BOOKMARK [3][-]{subsubsection.7.5.2.2}{FRL Predictions of Shaftliner LSF Wall Configurations}{subsection.7.5.2}% 123
+\BOOKMARK [3][-]{subsubsection.7.5.2.3}{FRL Predictions of Staggered Stud LSF Wall Configurations}{subsection.7.5.2}% 124
+\BOOKMARK [1][-]{section.7.6}{Summary and Conclusions}{chapter.7}% 125
+\BOOKMARK [0][-]{chapter.8}{Conclusions}{}% 126
+\BOOKMARK [1][-]{section.8.1}{Summary}{chapter.8}% 127
+\BOOKMARK [1][-]{section.8.2}{Research Outcomes}{chapter.8}% 128
+\BOOKMARK [2][-]{subsection.8.2.1}{Selection of Complex LSF wall Systems}{section.8.2}% 129
+\BOOKMARK [2][-]{subsection.8.2.2}{Ambient Temperature Structural Performance of Complex LSF Walls}{section.8.2}% 130
+\BOOKMARK [2][-]{subsection.8.2.3}{Fire Performance of Complex LSF Walls}{section.8.2}% 131
+\BOOKMARK [2][-]{subsection.8.2.4}{Thermal modelling of Complex LSF Walls}{section.8.2}% 132
+\BOOKMARK [2][-]{subsection.8.2.5}{Structural modelling of Complex LSF Walls}{section.8.2}% 133
+\BOOKMARK [1][-]{section.8.3}{Future Research and Recommendations}{chapter.8}% 134
+\BOOKMARK [0][-]{appendix.A}{FDS code}{}% 135
+\BOOKMARK [0][-]{appendix.B}{Axial Compression Capacity Prediction based on DSM}{}% 136
+\BOOKMARK [0][-]{appendix.C}{Full-scale fire test results}{}% 137
+\BOOKMARK [0][-]{appendix*.501}{Bibliography}{}% 138

@@ -1,0 +1,195 @@
+\documentclass[twoside,openright,12pt]{book}
+\usepackage[a4paper,top=25mm,bottom=25mm,left=40mm,right=25mm,bindingoffset=0mm,headheight=14.5pt,headsep=12pt]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{amsthm,amssymb,mathptmx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{1pt} % optional
+\renewcommand{\footrulewidth}{1pt} % optional
+\fancyhead[LE,RO]{\nouppercase{\footnotesize \leftmark}}
+\fancyfoot[C]{\nouppercase{\thepage}}
+\fancyfoot[LE,RO]{\scriptsize{Harikrishnan Magarabooshanam}}
+\newcounter{savepage}
+\usepackage[auto]{chappg}
+\usepackage{setspace}
+\usepackage{epstopdf} %%package to overcome problem with eps in pdf files
+% \usepackage{babel}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage[
+	backend=biber,
+	firstinits=false,
+	maxcitenames=2,
+	maxbibnames=99,
+	citestyle=authoryear-comp,
+	giveninits=true,
+	uniquename=false,
+	uniquelist=false,
+	url=false,
+	natbib=true,
+	style=authoryear,
+	dashed=false,
+	sorting=nyt]{biblatex}
+\DeclareNameAlias{default}{family-given}
+% \DeclareFieldFormat{labelnumberwidth}{}
+% \setlength{\biblabelsep}{0pt}
+\bibliography{library}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks   = true, %Colours links instead of ugly boxes
+	urlcolor     = [RGB]{0,51,153}, %Colour for external hyperlinks
+	linkcolor    = [RGB]{0,51,153}, %Colour of internal links
+	citecolor   = red %Colour of citations
+}
+\usepackage{emptypage}
+\usepackage{gensymb}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{multirow}
+\newcommand{\minitab}[2][l]{\begin{tabular}{#1}#2\end{tabular}}
+\usepackage{array}
+\usepackage{caption}
+\usepackage[labelformat=simple,subrefformat=parens]{subcaption}
+\renewcommand{\thesubfigure}{~(\alph{subfigure})}
+\usepackage[noabbrev]{cleveref}
+\usepackage{listings}
+\lstset{
+basicstyle=\small\ttfamily,
+columns=flexible,
+breaklines=true
+}
+\usepackage{enumitem}
+\usepackage{lscape}
+\usepackage[flushleft]{threeparttable}
+\usepackage{tabularx}
+\usepackage{fontenc}
+\usepackage{longtable}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usepackage[counterclockwise, figuresright]{rotating}
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+%\addbibresource{library.bib}
+
+\makeatletter
+\def\cleardoublepage{\clearpage%
+	\if@twoside
+	\ifodd\c@page\else
+	\vspace*{\fill}
+	\hfill
+	\begin{center}
+		[This page is intentionally left blank]
+	\end{center}
+	\vspace{\fill}
+	\thispagestyle{empty}
+	\newpage
+	\if@twocolumn\hbox{}\newpage\fi
+	\fi
+	\fi
+}
+\makeatother
+\begin{document}
+
+\pagenumbering{roman}
+
+\input{chapters/titlepage}
+
+\chapter*{Keywords}{\setstretch{1.5}}
+\addcontentsline{toc}{chapter}{Keywords}
+\input{chapters/keywords}
+
+\chapter*{Abstract}{\setstretch{1.5}}
+\addcontentsline{toc}{chapter}{Abstract}
+\input{chapters/abstract}
+
+\chapter*{Publications}{\setstretch{1.5}}
+\addcontentsline{toc}{chapter}{Publications}
+\input{chapters/publications}
+
+\tableofcontents
+\listoftables
+\listoffigures
+
+\chapter*{Acknowledgement}{\setstretch{1.5}}
+\addcontentsline{toc}{chapter}{Acknowledgement}
+\input{chapters/acknowledgment}
+
+\chapter*{Abbreviations}{\setstretch{1.5}}
+\addcontentsline{toc}{chapter}{Abbreviations}
+\input{chapters/abbreviations}
+
+\chapter*{Statement of Original Authorship}{\setstretch{1.5}}
+\addcontentsline{toc}{chapter}{Statement of Original Authorship}
+\input{chapters/authorship}
+
+\cleardoublepage
+
+\setcounter{savepage}{\arabic{page}}
+
+\pagenumbering{bychapter}
+
+\setstretch{1.5}
+
+\chapter{Introduction}
+\label{ch:Introduction} 
+\input{chapters/Ch-Introduction-r3}  
+
+\chapter{Literature Review}
+\label{ch:Literature}       
+\input{chapters/Ch-Literature-r3} 
+
+\chapter{Experimental Investigations of LSF Walls under Ambient Conditions}
+\label{ch:Ambient}       
+\input{chapters/Ch-Experiments-Ambient-r3} 
+
+\chapter{Experimental Investigations of Complex LSF Walls under Fire Conditions}
+\label{ch:Fire}       
+\input{chapters/Ch-Experiments-Fire-r3} 
+
+\chapter{Thermal FE Modelling of Complex LSF Walls}
+\label{ch:FE-Thermal}       
+\input{chapters/Ch-Thermal-r2} 
+
+\chapter{Structural FE Modelling of Complex LSF Walls}
+\label{ch:FE-Structural}       
+\input{chapters/Ch-Structural-r2}
+
+\chapter{Thermal and Structural FE Modelling Parametric Study}
+\label{ch:FE-Parametric}       
+\input{chapters/Ch-Parametric-r1}
+
+\chapter{Conclusions}
+\label{ch:Conclusions}       
+\input{chapters/Ch-Conclusions-r1}
+
+\cleardoublepage
+
+\appendix
+\chapter{FDS code}
+\label{app:fds-code}       
+\input{chapters/Ap-fds}
+
+\chapter{Axial Compression Capacity Prediction based on DSM}
+\label{app:dsm-prediction}       
+\input{chapters/Ap-dsm}
+
+\chapter{Full-scale fire test results}
+\label{app:fire-test}       
+\input{chapters/Ap-fire}
+
+\cleardoublepage
+
+\pagenumbering{roman}
+\setcounter{page}{\thesavepage}
+\printbibliography[heading=bibintoc]
+
+% \bibliography{}
+% \bibliographystyle{apalike}
+
+% \setcounter{page}{1}
+% \renewcommand{\thepage}{A-\arabic{page}}
+% \pagenumbering{roman}
+
+\end{document}

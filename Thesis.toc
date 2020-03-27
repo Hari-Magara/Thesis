@@ -1,0 +1,277 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Keywords}{iii}{chapter*.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abstract}{v}{chapter*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Publications}{ix}{chapter*.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Tables}{xv}{chapter*.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Figures}{xvii}{chapter*.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Acknowledgement}{xxix}{chapter*.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abbreviations}{xxxi}{chapter*.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Statement of Original Authorship}{xxxiii}{chapter*.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1-1}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}General}{1-1}{section.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}LSF Wall System}{1-2}{section.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.1}LSF Wall Components}{1-2}{subsection.1.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.2}Cold-formed Steel Sections}{1-5}{subsection.1.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.3}Buckling Behaviour of Cold-Formed Steel Members}{1-6}{subsection.1.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.4}Design Guidelines}{1-7}{subsection.1.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2.5}Fire and Structural Performance of LSF walls}{1-7}{subsection.1.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Complex LSF Wall Systems}{1-9}{section.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Research Problem}{1-11}{section.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.5}Research Aim}{1-12}{section.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.6}Outline of Thesis}{1-13}{section.1.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Literature Review}{2-1}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Background}{2-1}{section.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Experimental and Numerical Investigations of LSF Walls}{2-2}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Thermal and Mechanical Properties of Cold-Formed Steels}{2-23}{section.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Thermal Properties of Plasterboard}{2-26}{section.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}Numerical Simulation}{2-28}{section.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}Computational Fluid Dynamics (CFD)}{2-40}{section.2.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.7}Literature Review Findings}{2-45}{section.2.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Experimental Investigations of LSF Walls under Ambient Conditions}{3-1}{chapter.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}General}{3-1}{section.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Test Wall Panels}{3-1}{section.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Test Set-up}{3-3}{section.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Test-AT1}{3-7}{section.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Test-AT2}{3-8}{section.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.6}Test-AT3}{3-12}{section.3.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.7}Test-AT4}{3-15}{section.3.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.8}Test-AT5}{3-17}{section.3.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.9}Summary of Ambient Temperature Capacity Test Results}{3-22}{section.3.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.10}Comparison of Ambient Temperature Capacity Test Results}{3-23}{section.3.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.11}Tensile Coupon Tests}{3-28}{section.3.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.12}Design Capacity Predictions Based on Direct Strength Method (DSM)}{3-31}{section.3.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.13}Summary of Findings}{3-37}{section.3.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Experimental Investigations of Complex LSF Walls under Fire Conditions}{4-1}{chapter.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}General}{4-1}{section.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Heat Transfer in LSF Walls}{4-1}{section.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Small-Scale Fire Test of Double Stud LSF Walls}{4-4}{section.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}Small-Scale Fire Test Details}{4-4}{subsection.4.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.2}Small-Scale Fire Test - Results and Discussion}{4-6}{subsection.4.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Full-scale Fire Tests of Double, Staggered and Shaftliner LSF Walls}{4-8}{section.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.1}Fire Test Panel Details}{4-8}{subsection.4.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.2}Temperature Sensors and Displacement Transducers}{4-11}{subsection.4.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.3}Fire Test Set-up and Procedure}{4-13}{subsection.4.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Fire Test-T1}{4-14}{section.4.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.1}Test-T1 Failure Time and Mode, and Observations}{4-14}{subsection.4.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.2}Test-T1 Results and Discussion}{4-17}{subsection.4.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.6}Fire Test-T2}{4-22}{section.4.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.6.1}Test-T2 Failure Time and Mode, and Observations}{4-22}{subsection.4.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.6.2}Test-T2 Results and Discussion}{4-22}{subsection.4.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.7}Fire Test-T3}{4-27}{section.4.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.7.1}Test-T3 Failure Time and Mode, and Observations}{4-27}{subsection.4.7.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.7.2}Test-T3 Results and Discussion}{4-27}{subsection.4.7.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.8}Fire Test-T4}{4-32}{section.4.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.8.1}Test-T4 Failure Time and Mode, and Observations}{4-32}{subsection.4.8.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.8.2}Test-T4 Results and Discussion}{4-33}{subsection.4.8.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.9}Fire Test-T5}{4-38}{section.4.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.9.1}Test-T5 Failure Time and Mode, and Observations}{4-38}{subsection.4.9.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.9.2}Test-T5 Results and Discussion}{4-41}{subsection.4.9.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.10}Fire Test-T6}{4-43}{section.4.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.10.1}Test-T6 Failure Time and Mode, and Observations}{4-43}{subsection.4.10.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.10.2}Test-T6 Results and Discussion}{4-46}{subsection.4.10.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.11}Fire Test-T7}{4-49}{section.4.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.11.1}Test-T7 Failure Time and Mode, and Observations}{4-49}{subsection.4.11.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.11.2}Test-T7 Results and Discussion}{4-50}{subsection.4.11.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.12}Fire Test-T8}{4-53}{section.4.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.12.1}Test-T8 Failure Time and Mode, and Observations}{4-53}{subsection.4.12.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.12.2}Test-T8 Results and Discussion}{4-55}{subsection.4.12.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.13}Fire Test-T9}{4-59}{section.4.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.13.1}Test-T9 Failure Time and Mode, and Observations}{4-59}{subsection.4.13.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.13.2}Test-T9 Results and Discussion}{4-63}{subsection.4.13.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.14}Fire Test-T10}{4-67}{section.4.14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.14.1}Test-T10 Failure Time and Mode, and Observations}{4-67}{subsection.4.14.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.14.2}Test-T10 Results and Discussion}{4-71}{subsection.4.14.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.15}Summary of Full-Scale Fire Tests}{4-74}{section.4.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.16}Comparison with Single Stud Wall Test Results}{4-82}{section.4.16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.16.1}Comparison of Non-Cavity Insulated Fire Test Results - Tests-T1, T2, T4, SS-T1 and SS-T2}{4-82}{subsection.4.16.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.16.2}Comparison of Cavity Insulated Fire Test Results - Tests-T5, T7, T10 and SS-T3}{4-88}{subsection.4.16.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.16.3}Comparison of Non-Cavity Insulated Shaftliner and Staggered Stud Fire Test Results - Tests T8, T9 and SS-T4}{4-91}{subsection.4.16.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.16.4}Comparison of Axial Displacement and Lateral Deflection Versus Time Curves}{4-93}{subsection.4.16.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.17}Conclusions}{4-96}{section.4.17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Thermal FE Modelling of Complex LSF Walls}{5-1}{chapter.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Introduction}{5-1}{section.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Thermal modelling in SAFIR}{5-3}{section.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Thermal modelling in ABAQUS}{5-13}{section.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Thermal modelling in FDS}{5-19}{section.5.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.1}Thermal model description in FDS}{5-19}{subsection.5.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.2}Thermal model validation - Non-cavity insulated Tests-T1, T2, T3, T4, T8 and T9}{5-21}{subsection.5.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.3}Thermal model validation - Cavity insulated Tests-T5, T6, T7 and T10}{5-34}{subsection.5.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.4}Thermal model validation - Non-cavity insulated Tests-T1, T2, T3, T4, T8 and T9 with plasterboard open-up}{5-43}{subsection.5.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.5}Influence of Plasterboard Open-Up}{5-50}{subsection.5.4.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.5}Conclusions}{5-59}{section.5.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Structural FE Modelling of Complex LSF Walls}{6-1}{chapter.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Numerical Analysis of Complex LSF Walls-Ambient Conditions}{6-1}{section.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}ABAQUS Modelling Set-up}{6-2}{section.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Structural FE Model Prediction - Ambient Temperature Capacity Tests}{6-6}{section.6.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.4}Summary of Ambient Temperature Capacity Predictions}{6-14}{section.6.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.5}Coupled Temperature Displacement Structural Analysis}{6-16}{section.6.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.6}Summary and Conclusions}{6-45}{section.6.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Thermal and Structural FE Modelling Parametric Study}{7-1}{chapter.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Introduction}{7-1}{section.7.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Parameters considered}{7-2}{section.7.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.3}Thermal Parametric Models}{7-5}{section.7.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.1}Double stud wall with 70 mm studs}{7-5}{subsection.7.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.2}Double stud walls with 90 mm studs}{7-13}{subsection.7.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.3}Shaftliner stud walls with 70 mm studs}{7-15}{subsection.7.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.4}Shaftliner stud walls with 90 mm studs}{7-23}{subsection.7.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.5}Staggered stud walls with 70 mm studs}{7-25}{subsection.7.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.6}Staggered stud walls with 90 mm studs}{7-30}{subsection.7.3.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.4}Ambient Temperature Structural Models}{7-36}{section.7.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.5}Elevated Temperature Structural Models}{7-39}{section.7.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.5.1}FRL Predictions for Wall Configurations from Experimental Study}{7-40}{subsection.7.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.5.2}FRL Predictions for Wall Configurations from Parametric Study}{7-43}{subsection.7.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.5.2.1}FRL Predictions of Double Stud LSF Wall Configurations}{7-43}{subsubsection.7.5.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.5.2.2}FRL Predictions of Shaftliner LSF Wall Configurations}{7-45}{subsubsection.7.5.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.5.2.3}FRL Predictions of Staggered Stud LSF Wall Configurations}{7-49}{subsubsection.7.5.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.6}Summary and Conclusions}{7-52}{section.7.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Conclusions}{8-1}{chapter.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Summary}{8-1}{section.8.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.2}Research Outcomes}{8-2}{section.8.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.1}Selection of Complex LSF wall Systems}{8-2}{subsection.8.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.2}Ambient Temperature Structural Performance of Complex LSF Walls}{8-2}{subsection.8.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.3}Fire Performance of Complex LSF Walls}{8-3}{subsection.8.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.4}Thermal modelling of Complex LSF Walls}{8-7}{subsection.8.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.5}Structural modelling of Complex LSF Walls}{8-8}{subsection.8.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.3}Future Research and Recommendations}{8-8}{section.8.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}FDS code}{A-1}{appendix.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Axial Compression Capacity Prediction based on DSM}{B-1}{appendix.B}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Full-scale fire test results}{C-1}{appendix.C}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{xxxv}{appendix*.501}%
