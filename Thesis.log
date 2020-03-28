@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.2)  27 MAR 2020 16:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.1.2)  28 MAR 2020 16:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -5884,11 +5884,11 @@ pdfTeX warning: pdflatex.exe (file ./images/T1-buckling-FEA-exp-temp.pdf): PDF i
 File: images/T1-buckling-FEA-exp-temp.pdf Graphic file (type pdf)
 <use images/T1-buckling-FEA-exp-temp.pdf>
 Package pdftex.def Info: images/T1-buckling-FEA-exp-temp.pdf  used on input line 317.
-(pdftex.def)             Requested size: 330.05322pt x 228.50081pt.
+(pdftex.def)             Requested size: 350.68274pt x 242.78418pt.
 File: images/T1-buckling.pdf Graphic file (type pdf)
 <use images/T1-buckling.pdf>
 Package pdftex.def Info: images/T1-buckling.pdf  used on input line 323.
-(pdftex.def)             Requested size: 165.02347pt x 238.36768pt.
+(pdftex.def)             Requested size: 226.91199pt x 327.76303pt.
 <images/T1-axial-FE-vs-Exp.pdf, id=13943, 395.70963pt x 295.62294pt>
 File: images/T1-axial-FE-vs-Exp.pdf Graphic file (type pdf)
 <use images/T1-axial-FE-vs-Exp.pdf>
@@ -5906,11 +5906,11 @@ pdfTeX warning: pdflatex.exe (file ./images/T1-buckling-FEA.pdf): PDF inclusion:
 File: images/T1-buckling-FEA.pdf Graphic file (type pdf)
 <use images/T1-buckling-FEA.pdf>
 Package pdftex.def Info: images/T1-buckling-FEA.pdf  used on input line 351.
-(pdftex.def)             Requested size: 330.05322pt x 228.50081pt.
+(pdftex.def)             Requested size: 350.68274pt x 242.78418pt.
 File: images/T1-buckling.pdf Graphic file (type pdf)
 <use images/T1-buckling.pdf>
 Package pdftex.def Info: images/T1-buckling.pdf  used on input line 357.
-(pdftex.def)             Requested size: 165.02347pt x 238.36768pt.
+(pdftex.def)             Requested size: 226.91199pt x 327.76303pt.
 [20]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -5938,11 +5938,11 @@ pdfTeX warning: pdflatex.exe (file ./images/T2-buckling-FEA.pdf): PDF inclusion:
 File: images/T2-buckling-FEA.pdf Graphic file (type pdf)
 <use images/T2-buckling-FEA.pdf>
 Package pdftex.def Info: images/T2-buckling-FEA.pdf  used on input line 391.
-(pdftex.def)             Requested size: 330.05322pt x 228.50081pt.
+(pdftex.def)             Requested size: 350.68274pt x 242.78418pt.
 File: images/T2-buckling.pdf Graphic file (type pdf)
 <use images/T2-buckling.pdf>
 Package pdftex.def Info: images/T2-buckling.pdf  used on input line 397.
-(pdftex.def)             Requested size: 165.02347pt x 238.36768pt.
+(pdftex.def)             Requested size: 226.91199pt x 327.76303pt.
 [26] [27 <./images/T2-axial-FE-vs-Exp.pdf> <./images/T2-lateral-FE-vs-Exp.pdf
 
 pdfTeX warning: pdflatex.exe (file ./images/T2-lateral-FE-vs-Exp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
@@ -5964,11 +5964,11 @@ pdfTeX warning: pdflatex.exe (file ./images/T3-buckling-FEA.pdf): PDF inclusion:
 File: images/T3-buckling-FEA.pdf Graphic file (type pdf)
 <use images/T3-buckling-FEA.pdf>
 Package pdftex.def Info: images/T3-buckling-FEA.pdf  used on input line 431.
-(pdftex.def)             Requested size: 330.05322pt x 228.50081pt.
+(pdftex.def)             Requested size: 350.68274pt x 242.78418pt.
 File: images/T3-buckling.pdf Graphic file (type pdf)
 <use images/T3-buckling.pdf>
 Package pdftex.def Info: images/T3-buckling.pdf  used on input line 437.
-(pdftex.def)             Requested size: 185.65297pt x 268.16214pt.
+(pdftex.def)             Requested size: 206.28249pt x 297.9566pt.
 File: images/T4-plan.pdf Graphic file (type pdf)
 <use images/T4-plan.pdf>
 Package pdftex.def Info: images/T4-plan.pdf  used on input line 452.
@@ -5997,11 +5997,11 @@ pdfTeX warning: pdflatex.exe (file ./images/T4-buckling-FEA.pdf): PDF inclusion:
 File: images/T4-buckling-FEA.pdf Graphic file (type pdf)
 <use images/T4-buckling-FEA.pdf>
 Package pdftex.def Info: images/T4-buckling-FEA.pdf  used on input line 479.
-(pdftex.def)             Requested size: 330.05322pt x 228.50081pt.
+(pdftex.def)             Requested size: 350.68274pt x 242.78418pt.
 File: images/T4-buckling.pdf Graphic file (type pdf)
 <use images/T4-buckling.pdf>
 Package pdftex.def Info: images/T4-buckling.pdf  used on input line 485.
-(pdftex.def)             Requested size: 185.65297pt x 268.16214pt.
+(pdftex.def)             Requested size: 226.91199pt x 327.76303pt.
 [32]
 File: images/T5-plan.pdf Graphic file (type pdf)
 <use images/T5-plan.pdf>
@@ -6024,11 +6024,11 @@ pdfTeX warning: pdflatex.exe (file ./images/T5-buckling-FEA.pdf): PDF inclusion:
 File: images/T5-buckling-FEA.pdf Graphic file (type pdf)
 <use images/T5-buckling-FEA.pdf>
 Package pdftex.def Info: images/T5-buckling-FEA.pdf  used on input line 523.
-(pdftex.def)             Requested size: 330.05322pt x 228.50081pt.
+(pdftex.def)             Requested size: 350.68274pt x 242.78418pt.
 File: images/T5-buckling.pdf Graphic file (type pdf)
 <use images/T5-buckling.pdf>
 Package pdftex.def Info: images/T5-buckling.pdf  used on input line 529.
-(pdftex.def)             Requested size: 185.65297pt x 268.16214pt.
+(pdftex.def)             Requested size: 226.91199pt x 327.76303pt.
 [33] [34 <./images/T4-axial-FE-vs-Exp.pdf> <./images/T4-lateral-FE-vs-Exp.pdf
 
 pdfTeX warning: pdflatex.exe (file ./images/T4-lateral-FE-vs-Exp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
@@ -6050,7 +6050,7 @@ Package pdftex.def Info: images/T5-buckling-FEA.pdf  used on input line 565.
 File: images/T6-buckling.pdf Graphic file (type pdf)
 <use images/T6-buckling.pdf>
 Package pdftex.def Info: images/T6-buckling.pdf  used on input line 571.
-(pdftex.def)             Requested size: 144.40025pt x 208.57321pt.
+(pdftex.def)             Requested size: 206.28249pt x 297.9566pt.
  [36] [37 <./images/T5-axial-FE-vs-Exp.pdf> <./images/T5-lateral-FE-vs-Exp.pdf
 
 pdfTeX warning: pdflatex.exe (file ./images/T5-lateral-FE-vs-Exp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
@@ -6073,7 +6073,7 @@ Package pdftex.def Info: images/T7-buckling-FEA.pdf  used on input line 594.
 File: images/T7-buckling.pdf Graphic file (type pdf)
 <use images/T7-buckling.pdf>
 Package pdftex.def Info: images/T7-buckling.pdf  used on input line 600.
-(pdftex.def)             Requested size: 144.40025pt x 208.57321pt.
+(pdftex.def)             Requested size: 206.28249pt x 297.9566pt.
 <images/T7-axial-FE-vs-Exp.pdf, id=14755, 393.20026pt x 295.62294pt>
 File: images/T7-axial-FE-vs-Exp.pdf Graphic file (type pdf)
 <use images/T7-axial-FE-vs-Exp.pdf>
@@ -6106,7 +6106,7 @@ pdfTeX warning: pdflatex.exe (file ./images/T10-buckling-FEA.pdf): PDF inclusion
 File: images/T10-buckling-FEA.pdf Graphic file (type pdf)
 <use images/T10-buckling-FEA.pdf>
 Package pdftex.def Info: images/T10-buckling-FEA.pdf  used on input line 657.
-(pdftex.def)             Requested size: 330.05322pt x 228.50081pt.
+(pdftex.def)             Requested size: 371.30595pt x 257.05928pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./images/T10-buckling-studs-only.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
@@ -6114,7 +6114,7 @@ pdfTeX warning: pdflatex.exe (file ./images/T10-buckling-studs-only.pdf): PDF in
 File: images/T10-buckling-studs-only.pdf Graphic file (type pdf)
 <use images/T10-buckling-studs-only.pdf>
 Package pdftex.def Info: images/T10-buckling-studs-only.pdf  used on input line 663.
-(pdftex.def)             Requested size: 247.54149pt x 171.36734pt.
+(pdftex.def)             Requested size: 288.79422pt x 199.93408pt.
 [42] [43 <./images/T7-buckling-FEA.pdf>] [44 <./images/T7-axial-FE-vs-Exp.pdf> <./images/T7-lateral-FE-vs-Exp.pdf
 
 pdfTeX warning: pdflatex.exe (file ./images/T7-lateral-FE-vs-Exp.pdf): PDF inclusion: multiple pdfs with page group included in a single page
@@ -7866,13 +7866,13 @@ Package logreq Info: Writing requests to 'Thesis.run.xml'.
 Here is how much of TeX's memory you used:
  38108 strings out of 494064
  772370 string characters out of 6172660
- 1432750 words of memory out of 5000000
+ 1432761 words of memory out of 5000000
  39376 multiletter control sequences out of 15000+600000
  67139 words of font info for 146 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  60i,18n,70p,3534b,1821s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Thesis.pdf (499 pages, 35724892 bytes).
+Output written on Thesis.pdf (499 pages, 35724985 bytes).
 PDF statistics:
  26058 PDF objects out of 26593 (max. 8388607)
  9286 compressed objects within 93 object streams
